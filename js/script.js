@@ -56,9 +56,9 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <p><strong>Tecnologias:</strong> ${projeto.tecnologias.join(
                   ", "
                 )}</p>
-                <p><a href="${
+                <button class="git-button"><a href="${
                   projeto.url
-                }" target="_blank">Ver no GitHub</a></p>
+                }" target="_blank">Ver no GitHub</a></button>
             </div>
         </div>
       `;
