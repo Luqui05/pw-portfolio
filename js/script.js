@@ -28,6 +28,7 @@ const projetos = [
     tecnologias: [
       "Handlebars",
       "CSS",
+      "Bootstrap",
       "JavaScript",
       "Node.js",
       "Express",
@@ -86,21 +87,20 @@ document.addEventListener("DOMContentLoaded", async function () {
   if (reposContainer) {
     for (const projeto of projetos) {
       const cardHTML = `
-        <br>
         <div class="projeto-card">
+            <img class="projeto-imagem" src="${projeto.imagem}" alt="${
+        projeto.nome
+      }">
             <div class="projeto-info">
                 <h3>${projeto.nome}</h3>
                 <p>${projeto.descricao}</p>
                 <p><strong>Tecnologias:</strong> ${projeto.tecnologias.join(
                   ", "
                 )}</p>
-                <p><strong>Link do Projeto:</strong> <a href="${
+                <p><a href="${
                   projeto.url
-                }" target="_blank">${projeto.url}</a></p>
+                }" target="_blank">Ver no GitHub</a></p>
             </div>
-            <img class="image-project" src="${projeto.imagem}" alt="${
-        projeto.nome
-      }">
         </div>
       `;
 
