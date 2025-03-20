@@ -39,8 +39,37 @@ const projetos = [
   },
 ];
 
+// Lógica de renderização dos projetos
 document.addEventListener("DOMContentLoaded", async function () {
   const reposContainer = document.getElementById("repositorios");
+
+  if (reposContainer) {
+    for (const projeto of projetos) {
+      const cardHTML = `
+        <div class="projeto-card">
+            <img class="projeto-imagem" src="${projeto.imagem}" alt="${
+        projeto.nome
+      }">
+            <div class="projeto-info">
+                <h3>${projeto.nome}</h3>
+                <p>${projeto.descricao}</p>
+                <p><strong>Tecnologias:</strong> ${projeto.tecnologias.join(
+                  ", "
+                )}</p>
+                <p><a href="${
+                  projeto.url
+                }" target="_blank">Ver no GitHub</a></p>
+            </div>
+        </div>
+      `;
+
+      reposContainer.innerHTML += cardHTML;
+    }
+  }
+});
+
+// Lógica de renderização de citações
+document.addEventListener("DOMContentLoaded", async function () {
   const quotesContainers = document.querySelectorAll(".quotes");
 
   async function buscarCitacao() {
@@ -83,28 +112,19 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
 
   exibirCitação();
+});
 
-  if (reposContainer) {
-    for (const projeto of projetos) {
-      const cardHTML = `
-        <div class="projeto-card">
-            <img class="projeto-imagem" src="${projeto.imagem}" alt="${
-        projeto.nome
-      }">
-            <div class="projeto-info">
-                <h3>${projeto.nome}</h3>
-                <p>${projeto.descricao}</p>
-                <p><strong>Tecnologias:</strong> ${projeto.tecnologias.join(
-                  ", "
-                )}</p>
-                <p><a href="${
-                  projeto.url
-                }" target="_blank">Ver no GitHub</a></p>
-            </div>
-        </div>
-      `;
+// lógica botão menu lateral
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const sidebar = document.querySelector(".sidebar");
+  const closeMenu = document.querySelector(".close-menu");
 
-      reposContainer.innerHTML += cardHTML;
-    }
-  }
+  menuToggle.addEventListener("click", function () {
+    sidebar.style.left = "0";
+  });
+
+  closeMenu.addEventListener("click", function () {
+    sidebar.style.left = "-250px";
+  });
 });
