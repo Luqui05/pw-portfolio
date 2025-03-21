@@ -7,6 +7,13 @@
     "Helvetica Neue", Arial, sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-color: #121212;
   color: #ffffff;
@@ -38,6 +45,11 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   color: #ffffff;
+}
+
+.link-logo {
+  text-decoration: none;
+  color: white;
 }
 
 /* MENU DESKTOP */
@@ -137,6 +149,7 @@ main {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
+  flex: 1;
 }
 
 h1 {
