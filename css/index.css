@@ -219,6 +219,25 @@ footer {
   text-decoration: underline;
 }
 
+/* Design do conteúdo das seções */
+.conteudo-card {
+  background-color: rgb(61, 56, 56);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.conteudo-card li {
+  margin-bottom: 5px;
+}
+
 /* Responsividade: Ajuste para telas menores */
 @media (max-width: 768px) {
   .projeto-card {
