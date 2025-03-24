@@ -304,6 +304,35 @@ footer {
   transform: scale(1.02);
 }
 
+/* LISTA DE HABILIADES */
+.lista-habilidades {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lista-habilidades li {
+  margin-bottom: 15px;
+}
+
+.lista-habilidade li span {
+  display: block;
+}
+
+.barra {
+  width: 100%;
+  height: 8px;
+  background-color: #2f2f2f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.preenchimento {
+  height: 100%;
+  background-color: #ff5555;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .projeto-card {
