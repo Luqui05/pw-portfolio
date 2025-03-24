@@ -285,6 +285,25 @@ footer {
   margin-bottom: 5px;
 }
 
+/* GRID DAS HABILIDADES */
+.habilidades-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* CARD DA HABILIDADE */
+.habilidade-card {
+  width: 280px;
+  background-color: rgb(61, 56, 56);
+}
+
+.habilidade-card:hover {
+  transform: scale(1.02);
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .projeto-card {
@@ -319,5 +338,11 @@ footer {
     height: 200px;
     max-width: 100%;
     image-rendering: high-quality;
+  }
+
+  /* Tamanho do card de habilidade */
+  .habilidade-card {
+    width: 100%;
+    max-width: 320px;
   }
 }
