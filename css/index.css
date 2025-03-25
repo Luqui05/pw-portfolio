@@ -333,6 +333,39 @@ footer {
   transition: width 0.4s ease;
 }
 
+/* SEÇÃO HABILIDADES */
+.experiencia-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.experiencia-card {
+  width: 100%;
+  max-width: 600px;
+}
+
+.experiencia-card h2 {
+  margin-bottom: 10px;
+}
+
+.experiencia-card p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.cabecalho-exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-exp {
+  width: 50px;
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .projeto-card {
