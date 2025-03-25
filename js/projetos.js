@@ -14,7 +14,7 @@ export const projetos = [
     ],
     tecnologias: ["Java", "Spring Boot", "Kafka", "Eureka"],
     url: "https://github.com/Time-7-Desafio03",
-    imagem: "../img/votacao-imagem.jpg",
+    imagem: "img/votacao-imagem.jpg",
   },
   {
     nome: "Projeto-Notes",
@@ -33,7 +33,7 @@ export const projetos = [
       "MongoDB",
     ],
     url: "https://github.com/Luqui05/Projeto-Notes",
-    imagem: "../img/notes.jpg",
+    imagem: "img/notes.jpg",
   },
 ];
 
