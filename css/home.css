@@ -1,0 +1,43 @@
+.home-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.home-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.home-text {
+  flex: 1;
+  min-width: 250px;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.home-text p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.home-pic img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid white;
+  max-width: 100%;
+}
+
+.home-name {
+  color: rgb(255, 0, 0);
+}

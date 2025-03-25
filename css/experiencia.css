@@ -1,0 +1,22 @@
+.experiencia-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.experiencia-card {
+  width: 100%;
+  max-width: 600px;
+}
+
+.cabecalho-exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-exp {
+  width: 50px;
+}
