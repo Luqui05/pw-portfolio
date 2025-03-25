@@ -202,6 +202,11 @@ footer {
   padding-left: 20px;
 }
 
+.home-text p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
 .home-pic img {
   width: 250px;
   height: 250px;
@@ -209,6 +214,10 @@ footer {
   object-fit: cover;
   border: 3px solid white;
   max-width: 100%;
+}
+
+.home-name {
+  color: rgb(245, 37, 37);
 }
 
 /* ESTILOS DOS CARDS DO PROJETO */
