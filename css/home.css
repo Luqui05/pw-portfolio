@@ -40,4 +40,5 @@
 
 .home-name {
   color: rgb(255, 0, 0);
+  text-shadow: 0.1em 0.1em rgb(20, 19, 19);
 }
