@@ -366,6 +366,11 @@ footer {
   width: 50px;
 }
 
+/* EDUCACAO */
+.educacao-grid {
+  margin-top: 20px;
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .projeto-card {
