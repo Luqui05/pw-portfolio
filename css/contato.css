@@ -1,0 +1,29 @@
+.contato-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contato-card {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.contato-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contato-button:hover {
+  background-color: #e14444;
+}

@@ -1,0 +1,51 @@
+.projeto-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(61, 56, 56);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.projeto-card:hover {
+  transform: scale(1.02);
+}
+
+.projeto-imagem {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.projeto-info {
+  flex: 1;
+}
+
+.projeto-info p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.projeto-info button {
+  width: 110px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.projeto-info a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projeto-info a:hover {
+  text-decoration: underline;
+}
