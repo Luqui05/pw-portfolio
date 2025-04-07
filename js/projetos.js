@@ -47,7 +47,7 @@ export const projetos = [
   },
   {
     nome: "Plataforma de Gestão de Cursos e Matrículas",
-    organizacao: "Time-7-Desafio03",
+    organizacao: "Time-7-Desafio02",
     descricao: `Plataforma composta por dois microsserviços: um para gestão de cursos e outro para gestão de matrículas de alunos. O sistema permite cadastro e
     inativação de cursos e alunos, matrícula de alunos em cursos, bem como regras específicas de negócio e comunicação entre microsserviços utilizando OpenFeign.
     Com interface documentada pelo Swagger, banco H2 local, e cobertura de testes, a solução foi construída com foco em boas práticas de arquitetura e desenvolvimento.`,
