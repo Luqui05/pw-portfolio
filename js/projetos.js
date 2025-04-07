@@ -12,7 +12,17 @@ export const projetos = [
       "eureka-server",
       "cloud-gateway",
     ],
-    tecnologias: ["Java", "Spring Boot", "Kafka", "Eureka"],
+    tecnologias: [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "Eureka",
+      "Spring Web",
+      "Spring Data JPA",
+      "Swagger (SpringDoc)",
+      "Lombok",
+      "JUnit",
+    ],
     url: "https://github.com/Time-7-Desafio03",
     imagem: "../img/votacao-imagem.jpg",
   },
@@ -34,6 +44,28 @@ export const projetos = [
     ],
     url: "https://github.com/Luqui05/Projeto-Notes",
     imagem: "../img/notes.jpg",
+  },
+  {
+    nome: "Plataforma de Gestão de Cursos e Matrículas",
+    organizacao: "Time-7-Desafio03",
+    descricao: `Plataforma composta por dois microsserviços: um para gestão de cursos e outro para gestão de matrículas de alunos. O sistema permite cadastro e
+    inativação de cursos e alunos, matrícula de alunos em cursos, bem como regras específicas de negócio e comunicação entre microsserviços utilizando OpenFeign.
+    Com interface documentada pelo Swagger, banco H2 local, e cobertura de testes, a solução foi construída com foco em boas práticas de arquitetura e desenvolvimento.`,
+    repositorios: ["Projeto-Notes"],
+    tecnologias: [
+      "Java",
+      "Spring Boot",
+      "Spring Web",
+      "Spring Data JPA",
+      "OpenFeign",
+      "Swagger (SpringDoc)",
+      "Banco de Dados H2",
+      "Lombok",
+      "JUnit",
+      "ModelMapper",
+    ],
+    url: "https://github.com/cursos-matriculas",
+    imagem: "../img/cursos-imagem.jpg",
   },
 ];
 
