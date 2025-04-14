@@ -1,0 +1,15 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #ff5555;
+  --card-background: #f0f0f0;
+  --button-background: #f8a2a2;
+}
+
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --primary-color: #e14444;
+  --card-background: #3d3838;
+  --button-background: #5c3b3b;
+}

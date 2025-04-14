@@ -1,8 +1,11 @@
+@import url('./variaveis.css');
+
 .projeto-card {
+  background-color: var(--card-background);
+  color: var(--text-color);
   display: flex;
   align-items: center;
   gap: 20px;
-  background-color: rgb(61, 56, 56);
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 20px;
