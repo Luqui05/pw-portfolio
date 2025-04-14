@@ -76,7 +76,7 @@ export function renderizarProjetos() {
   container.innerHTML = projetos
     .map(
       (projeto) => `
-      <div class="projeto-card">
+      <div class="projeto-card conteudo-card">
         <img class="projeto-imagem" src="${projeto.imagem}" alt="${
         projeto.nome
       }">
