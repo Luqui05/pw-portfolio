@@ -7,38 +7,10 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/contato.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <h1 class="logo">
-          <a href="index.html" class="link-logo">Lucas Ribeiro</a>
-        </h1>
-        <nav class="nav-menu">
-          <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="projetos.html">Projetos</a></li>
-            <li><a href="habilidades.html">Habilidades</a></li>
-            <li><a href="experiencia.html">Experiência</a></li>
-            <li><a href="educacao.html">Educação</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          </ul>
-        </nav>
-        <button class="menu-toggle">&#9776;</button>
-      </div>
-
-      <aside class="sidebar">
-        <button class="close-menu">&times;</button>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="habilidades.html">Habilidades</a></li>
-          <li><a href="experiencia.html">Experiência</a></li>
-          <li><a href="educacao.html">Educação</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </aside>
-    </header>
+    <div id="include-header"></div>
 
     <main>
       <h1>Entre em contato comigo</h1>
@@ -64,24 +36,11 @@
             Ver no GitHub
           </button>
         </div>
-
-        <div class="conteudo-card contato-card">
-          <h2>📧 Email</h2>
-          <p>Se preferir, pode me mandar um e-mail diretamente:</p>
-          <button
-            class="contato-button"
-            onclick="window.location.href='mailto:lucashtribeiro2@gmail.com'"
-          >
-            Enviar Email
-          </button>
-        </div>
       </section>
+      <button id="theme-toggle">🌓</button>
     </main>
 
-    <footer>
-      <p>&copy; 2025 Lucas Ribeiro - Todos os direitos reservados.</p>
-      <p class="quotes"></p>
-    </footer>
+    <div id="include-footer"></div>
 
     <script type="module" src="js/main.js"></script>
   </body>
