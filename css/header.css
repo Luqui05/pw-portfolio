@@ -32,6 +32,10 @@ header {
   flex-wrap: wrap;
 }
 
+.nav-menu ul li a {
+  font-size: 20px;
+}
+
 .nav-menu a {
   text-decoration: none;
   color: var(--text-color);
@@ -69,7 +73,8 @@ header {
 .sidebar ul li a {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
@@ -82,7 +87,7 @@ header {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   background: none;
   border: none;
   color: var(--text-color);
@@ -98,13 +103,26 @@ header {
   display: none;
 }
 
-button#theme-toggle {
-  background: var(--button-background);
-  color: var(--text-color);
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--btn-theme-background);
+  color: white;
   border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  font-size: 25px;
+  z-index: 1000;
+  font-size: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+#theme-toggle:hover {
+  transform: scale(1.1);
+}
