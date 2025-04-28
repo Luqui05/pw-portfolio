@@ -10,17 +10,18 @@
     <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
-    <div id="include-header"></div>
+    <div id="include-header" aria-label="Cabeçalho do site"></div>
 
     <main>
-      <h1>Entre em contato comigo</h1>
-      <section class="contato-grid">
+      <h1 aria-label="Título da seção de contato">Entre em contato comigo</h1>
+      <section class="contato-grid" aria-labelledby="contato-title">
         <div class="conteudo-card contato-card">
           <h2>💼 LinkedIn</h2>
           <p>Conecte-se comigo pelo LinkedIn:</p>
           <button
             class="contato-button"
             onclick="window.open('https://www.linkedin.com/in/lucasribeiro15/','_blank')"
+            aria-label="Acessar perfil no LinkedIn"
           >
             Acessar LinkedIn
           </button>
@@ -32,15 +33,16 @@
           <button
             class="contato-button"
             onclick="window.open('https://github.com/Luqui05', '_blank')"
+            aria-label="Ver repositórios no GitHub"
           >
             Ver no GitHub
           </button>
         </div>
       </section>
-      <button id="theme-toggle">🌓</button>
+      <div id="include-theme-toggle"></div>
     </main>
 
-    <div id="include-footer"></div>
+    <div id="include-footer" aria-label="Rodapé do site"></div>
 
     <script type="module" src="js/main.js"></script>
   </body>

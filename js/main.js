@@ -2,7 +2,8 @@ import { renderizarProjetos } from "./projetos.js";
 import { exibirCitacao } from "./citacoes.js";
 import { iniciarMenuLateral } from "./menu.js";
 import { carregarElementosEssenciais } from "./contentloaded.js";
-import { carregarTema, alternarTema } from "./trocarTema.js";
+import { carregarTema, alternarTema, exibirBotaoAlterarTema } from "./trocarTema.js";
+import exibirCabecalho from "./header.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   carregarTema();
@@ -16,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       iniciarMenuLateral();
     },
-    footer: () => exibirCitacao()
+    footer: () => exibirCitacao(),
+    themeToggleButton: () => exibirBotaoAlterarTema(),
   });
   renderizarProjetos?.();
   exibirCitacao?.();

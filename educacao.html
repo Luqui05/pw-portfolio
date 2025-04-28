@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
-    <div id="include-header"></div>
+    <div id="include-header" aria-label="Cabeçalho do site"></div>
 
     <main>
-      <h1 style="text-align: center">Educação</h1>
-      <section class="educacao-grid">
+      <h1 style="text-align: center" aria-label="Título da seção de educação">Educação</h1>
+      <section class="educacao-grid" aria-labelledby="educacao-title">
         <div class="conteudo-card educacao-card">
           <h2>🏫 Colégio Paroquial</h2>
           <p><strong>Período:</strong> 2009 - 2022</p>
@@ -26,7 +26,7 @@
         </div>
 
         <div class="conteudo-card educacao-card">
-          <h2>🎓 IFPR - Insituto Federal do Paraná</h2>
+          <h2>🎓 IFPR - Instituto Federal do Paraná</h2>
           <p><strong>Período:</strong> 2023 - Atual</p>
           <p>
             Curso voltado ao desenvolvimento de software com fundamentos sólidos
@@ -68,10 +68,10 @@
           </p>
         </div>
       </section>
-      <button id="theme-toggle">🌓</button>
+      <div id="include-theme-toggle"></div>
     </main>
 
-    <div id="include-footer"></div>
+    <div id="include-footer" aria-label="Rodapé do site"></div>
 
     <script type="module" src="js/main.js"></script>
   </body>

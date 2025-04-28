@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
-    <div id="include-header"></div>
+    <div id="include-header" aria-label="Cabeçalho do site"></div>
 
     <main>
-      <h1 style="text-align: center">Experiência Profissional</h1>
-      <section class="experiencia-grid">
+      <h1 style="text-align: center" aria-label="Título da seção de experiência profissional">
+        Experiência Profissional
+      </h1>
+      <section class="experiencia-grid" aria-labelledby="experiencia-title">
         <div class="conteudo-card experiencia-card">
           <div class="cabecalho-exp">
             <h2>🧑‍💻 Estagiário de Desenvolvimento</h2>
             <img
               src="img/logo_uol.png"
-              alt="Logo da Empresa"
+              alt="Logo da empresa Compass UOL"
               class="logo-exp"
             />
           </div>
@@ -41,7 +43,7 @@
             <h2>💼 Desenvolvedor Trainee</h2>
             <img
               src="img/logo_uol.png"
-              alt="Logo da Empresa"
+              alt="Logo da empresa Compass UOL"
               class="logo-exp"
             />
           </div>
@@ -55,10 +57,10 @@
           </p>
         </div>
       </section>
-      <button id="theme-toggle">🌓</button>
+      <div id="include-theme-toggle"></div>
     </main>
 
-    <div id="include-footer"></div>
+    <div id="include-footer" aria-label="Rodapé do site"></div>
 
     <script type="module" src="js/main.js"></script>
   </body>

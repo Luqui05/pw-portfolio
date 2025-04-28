@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
-    <div id="include-header"></div>
+    <div id="include-header" aria-label="Cabeçalho do site"></div>
 
     <main>
-      <section class="conteudo-card home-card">
+      <section class="conteudo-card home-card" aria-labelledby="home-title">
         <div class="home-conteudo">
           <div class="home-text">
-            <h1>Olá, me chamo <em class="home-name">Lucas Ribeiro</em></h1>
+            <h1 id="home-title">Olá, me chamo <em class="home-name">Lucas Ribeiro</em></h1>
             <p>
               Sou um desenvolvedor focado em criar soluções eficientes, bem
               estruturadas e com propósito. <br /><br />
@@ -28,15 +28,14 @@
             </p>
           </div>
           <div class="home-pic">
-            <img src="img/lucas.jpg" alt="Foto de Lucas Ribeiro" />
+            <img src="img/lucas.jpg" alt="Foto de Lucas Ribeiro, desenvolvedor do portfólio" />
           </div>
         </div>
       </section>
-      <button id="theme-toggle">🌓</button>
+      <div id="include-theme-toggle"></div>
     </main>
-    
 
-    <div id="include-footer"></div>
+    <div id="include-footer" aria-label="Rodapé do site"></div>
 
     <script type="module" src="js/main.js"></script>
   </body>
