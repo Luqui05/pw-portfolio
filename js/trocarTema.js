@@ -10,3 +10,14 @@ export function carregarTema() {
     document.body.classList.add("dark-theme");
   }
 }
+
+export async function exibirBotaoAlterarTema() {
+  const response = await fetch("./componentes/theme-toggle.html");
+  const themeToggleHTML = await response.text();
+  document.getElementById("include-theme-toggle").innerHTML = themeToggleHTML;
+
+  const themeToggleButton = document.getElementById("theme-toggle");
+  if (themeToggleButton) {
+    themeToggleButton.addEventListener("click", alternarTema);
+  }
+}

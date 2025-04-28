@@ -11,4 +11,5 @@ function carregarComponente(id, caminho, callback) {
 export function carregarElementosEssenciais(callbacks = {}) {
   carregarComponente("include-header", "componentes/header.html", callbacks.header);
   carregarComponente("include-footer", "componentes/footer.html", callbacks.footer);
+  carregarComponente("include-theme-toggle", "componentes/theme-toggle.html", callbacks.themeToggleButton);
 }
