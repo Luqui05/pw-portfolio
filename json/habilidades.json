@@ -1,0 +1,43 @@
+[
+    {
+        "categoria": "💻 Linguagens de Programação",
+        "habilidades": [
+            { "nome": "Java", "nivel": 70 },
+            { "nome": "TypeScript", "nivel": 65 },
+            { "nome": "Python", "nivel": 40 }
+        ]
+    },
+    {
+        "categoria": "🧩 Frameworks",
+        "habilidades": [
+            { "nome": "SpringBoot", "nivel": 70 },
+            { "nome": "Node.js", "nivel": 60 },
+            { "nome": "Nest.js", "nivel": 55 }
+        ]
+    },
+    {
+        "categoria": "💾 Banco de Dados",
+        "habilidades": [
+            { "nome": "MySQL", "nivel": 70 },
+            { "nome": "PostgreSQL", "nivel": 50 },
+            { "nome": "MongoDB", "nivel": 60 }
+        ]
+    },
+    {
+        "categoria": "🔧 Ferramentas",
+        "habilidades": [
+            { "nome": "Git", "nivel": 65 },
+            { "nome": "Github", "nivel": 80 },
+            { "nome": "VS Code", "nivel": 90 },
+            { "nome": "Postman", "nivel": 70 }
+        ]
+    },
+    {
+        "categoria": "🚀 DevOps / Infraestrutura",
+        "habilidades": [
+            { "nome": "Docker", "nivel": 55 },
+            { "nome": "AWS", "nivel": 65 },
+            { "nome": "Azure DevOps", "nivel": 30 }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "instituicao": "🏫 Colégio Paroquial",
+        "periodo": "2009 - 2022",
+        "descricao": "Estudei do Ensino Infantil ao Ensino Médio, desenvolvendo base sólida em disciplinas fundamentais, além de participar de atividades escolares e projetos extracurriculares."
+    },
+    {
+        "instituicao": "🎓 IFPR - Instituto Federal do Paraná",
+        "periodo": "2023 - Atual",
+        "descricao": "Curso voltado ao desenvolvimento de software com fundamentos sólidos em programação, engenharia de requisitos, testes e práticas de versionamento, com foco em aplicações seguindo boas práticas."
+    },
+    {
+        "instituicao": "📚 Java COMPLETO Programação Orientada a Objetos + Projetos",
+        "plataforma": "Udemy",
+        "emitido": "Abril de 2024",
+        "horas": "54.5",
+        "descricao": "Aprendi OOP com Java, Git, Spring Boot, MySQL e MongoDB aplicando conceitos em projetos reais."
+    },
+    {
+        "instituicao": "📚 API REST e Spring Boot: Aprenda do Zero e na Prática",
+        "plataforma": "Udemy",
+        "emitido": "Maio de 2024",
+        "horas": "17.5",
+        "descricao": "Desenvolvimento de APIs RESTful com Java e Spring Boot. Abordagem prática, com foco em boas práticas e deploy."
+    },
+    {
+        "instituicao": "📚 NestJS Fundamentos [2024]",
+        "plataforma": "Udemy",
+        "emitido": "Dezembro de 2024",
+        "horas": "15",
+        "descricao": "Curso sobre NestJS com TypeScript, abordando Prisma ORM, TypeORM, Jest e testes E2E. Projeto backend escalável."
+    }
+]
