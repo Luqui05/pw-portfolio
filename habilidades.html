@@ -1,151 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio - Habilidades</title>
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/habilidades.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
-    <link rel="stylesheet" href="css/header.css" />
-  </head>
-  <body>
-    <div id="include-header" aria-label="Cabeçalho do site"></div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfólio - Habilidades</title>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/habilidades.css" />
+        <link rel="stylesheet" href="css/responsivo.css" />
+        <link rel="stylesheet" href="css/header.css" />
+    </head>
+    <body>
+        <div id="include-header" aria-label="Cabeçalho do site"></div>
 
-    <main>
-      <h1 style="text-align: center" aria-label="Título da seção de habilidades">Minhas habilidades</h1>
-      <section class="habilidades-grid" aria-labelledby="habilidades-title">
-        <div class="conteudo-card habilidade-card">
-          <h2>💻 Linguagens de Programação</h2>
-          <ul class="lista-habilidades">
-            <li title="Linguagem robusta, muito usada no backend e APIs.">
-              <span>Java</span>
-              <div class="barra" aria-label="Nível de habilidade em Java">
-                <div class="preenchimento" style="width: 70%"></div>
-              </div>
-            </li>
-            <li title="Superset de JS, com usabilidade tanto para backend quanto para frontend">
-              <span>TypeScript</span>
-              <div class="barra" aria-label="Nível de habilidade em TypeScript">
-                <div class="preenchimento" style="width: 65%"></div>
-              </div>
-            </li>
-            <li title="Linguagem versátil e popular em ciência de dados.">
-              <span>Python</span>
-              <div class="barra" aria-label="Nível de habilidade em Python">
-                <div class="preenchimento" style="width: 40%"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <main>
+            <h1
+                style="text-align: center"
+                aria-label="Título da seção de habilidades"
+            >
+                Minhas Habilidades
+            </h1>
+            <section
+                class="habilidades-grid"
+                aria-labelledby="habilidades-title"
+            ></section>
+            <div id="include-theme-toggle"></div>
+        </main>
 
-        <div class="conteudo-card habilidade-card">
-          <h2>🧩 Frameworks</h2>
-          <ul class="lista-habilidades">
-            <li title="Framework Java open-source que simplifica a construção de APIs REST e com suporte a microsserviços">
-              <span>SpringBoot</span>
-              <div class="barra" aria-label="Nível de habilidade em SpringBoot">
-                <div class="preenchimento" style="width: 70%"></div>
-              </div>
-            </li>
-            <li title="Ambiente runtime JavaScript open-source, ideal para aplicações assíncronas e escaláveis">
-              <span>Node.js</span>
-              <div class="barra" aria-label="Nível de habilidade em Node.js">
-                <div class="preenchimento" style="width: 60%"></div>
-              </div>
-            </li>
-            <li title="Framework Node.js de TypeScript, usado para criar aplicações backend escaláveis, com suporte a microsserviços e APIs REST">
-              <span>Nest.js</span>
-              <div class="barra" aria-label="Nível de habilidade em Nest.js">
-                <div class="preenchimento" style="width: 55%"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <div id="include-footer" aria-label="Rodapé do site"></div>
 
-        <div class="conteudo-card habilidade-card">
-          <h2>💾 Banco de Dados</h2>
-          <ul class="lista-habilidades">
-            <li title="SGBD relacional, open-source, amplamente utilizado para armazenar e manipular dados estruturados">
-              <span>MySQL</span>
-              <div class="barra" aria-label="Nível de habilidade em MySQL">
-                <div class="preenchimento" style="width: 70%"></div>
-              </div>
-            </li>
-            <li title="SGBD relacional open-source, conhecido pela robustez e capacidade de lidar com grandes volumes de dados">
-              <span>PostgreSQL</span>
-              <div class="barra" aria-label="Nível de habilidade em PostgreSQL">
-                <div class="preenchimento" style="width: 50%"></div>
-              </div>
-            </li>
-            <li title="Banco de dados NoSQL orientado a documentos, ideal para dados não estruturados ou semi-estruturados.">
-              <span>MongoDB</span>
-              <div class="barra" aria-label="Nível de habilidade em MongoDB">
-                <div class="preenchimento" style="width: 60%"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="conteudo-card habilidade-card">
-          <h2>🛠 Ferramentas</h2>
-          <ul class="lista-habilidades">
-            <li title="Sistema de versionamento que permite rastrear e gerenciar alterações em códigos">
-              <span>Git</span>
-              <div class="barra" aria-label="Nível de habilidade em Git">
-                <div class="preenchimento" style="width: 65%"></div>
-              </div>
-            </li>
-            <li title="Plataforma de hospedagem de repositórios Git, perfeita para colaboração remota">
-              <span>Github</span>
-              <div class="barra" aria-label="Nível de habilidade em Github">
-                <div class="preenchimento" style="width: 80%"></div>
-              </div>
-            </li>
-            <li title="Editor de código leve e extensível, multilinguagem e com várias funcionalidades, como depuração">
-              <span>VS Code</span>
-              <div class="barra" aria-label="Nível de habilidade em VS Code">
-                <div class="preenchimento" style="width: 90%"></div>
-              </div>
-            </li>
-            <li title="Ferramenta popular para testar e desenvolver APIs, permitindo o teste de requisições HTTP">
-              <span>Postman</span>
-              <div class="barra" aria-label="Nível de habilidade em Postman">
-                <div class="preenchimento" style="width: 70%"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="conteudo-card habilidade-card">
-          <h2>🚀 DevOps / Infraestrutura</h2>
-          <ul class="lista-habilidades">
-            <li title="Plataforma de containerização open-source, permitindo empacotar aplicações e suas dependências">
-              <span>Docker</span>
-              <div class="barra" aria-label="Nível de habilidade em Docker">
-                <div class="preenchimento" style="width: 55%"></div>
-              </div>
-            </li>
-            <li title="Conjunto de serviços de computação em nuvem oferecidos pela Amazon">
-              <span>AWS</span>
-              <div class="barra" aria-label="Nível de habilidade em AWS">
-                <div class="preenchimento" style="width: 60%"></div>
-              </div>
-            </li>
-            <li title="Conjunto de ferramentas de desenvolvimento da Microsoft que facilita a colaboração, planejamento e CI/CD">
-              <span>Azure DevOps</span>
-              <div class="barra" aria-label="Nível de habilidade em Azure DevOps">
-                <div class="preenchimento" style="width: 30%"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <div id="include-theme-toggle"></div>
-    </main>
-
-    <div id="include-footer" aria-label="Rodapé do site"></div>
-
-    <script type="module" src="js/main.js"></script>
-  </body>
+        <script type="module" src="js/main.js"></script>
+    </body>
 </html>
