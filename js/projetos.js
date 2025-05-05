@@ -1,79 +1,12 @@
-export const projetos = [
-  {
-    nome: "Projeto de Microsserviços para tomada de decisões",
-    organizacao: "Time-7-Desafio03",
-    descricao: `Plataforma baseada em microsserviços para auxiliar na tomada de decisões em grupo. 
-      Utiliza Spring Boot para a lógica de negócios e Kafka para comunicação assíncrona entre os serviços, garantindo escalabilidade e performance.
-      O projeto inclui módulos para gestão de funcionários, propostas e resultados, além de um gateway API e um servidor Eureka para descoberta de serviços.`,
-    repositorios: [
-      "funcionarios",
-      "propostas",
-      "resultados",
-      "eureka-server",
-      "cloud-gateway",
-    ],
-    tecnologias: [
-      "Java",
-      "Spring Boot",
-      "Kafka",
-      "Eureka",
-      "Spring Web",
-      "Spring Data JPA",
-      "Swagger (SpringDoc)",
-      "Lombok",
-      "JUnit",
-    ],
-    url: "https://github.com/Time-7-Desafio03",
-    imagem: "../img/votacao-imagem.jpg",
-  },
-  {
-    nome: "Projeto-Notes",
-    organizacao: "Luqui05",
-    descricao: `Aplicação full-stack para gerenciamento de notas, desenvolvida com Node.js, Express e MongoDB.
-      Permite criação, edição, visualização e exclusão de notas.
-      Utiliza Handlebars como template engine e Bootstrap para estilização, oferecendo uma interface simples e intuitiva.`,
-    repositorios: ["Projeto-Notes"],
-    tecnologias: [
-      "Handlebars",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "Node.js",
-      "Express",
-      "MongoDB",
-    ],
-    url: "https://github.com/Luqui05/Projeto-Notes",
-    imagem: "../img/notes.jpg",
-  },
-  {
-    nome: "Plataforma de Gestão de Cursos e Matrículas",
-    organizacao: "Time-7-Desafio02",
-    descricao: `Plataforma composta por dois microsserviços: um para gestão de cursos e outro para gestão de matrículas de alunos. O sistema permite cadastro e
-    inativação de cursos e alunos, matrícula de alunos em cursos, bem como regras específicas de negócio e comunicação entre microsserviços utilizando OpenFeign.
-    Com interface documentada pelo Swagger, banco H2 local, e cobertura de testes, a solução foi construída com foco em boas práticas de arquitetura e desenvolvimento.`,
-    repositorios: ["Projeto-Notes"],
-    tecnologias: [
-      "Java",
-      "Spring Boot",
-      "Spring Web",
-      "Spring Data JPA",
-      "OpenFeign",
-      "Swagger (SpringDoc)",
-      "Banco de Dados H2",
-      "Lombok",
-      "JUnit",
-      "ModelMapper",
-    ],
-    url: "https://github.com/cursos-matriculas",
-    imagem: "../img/cursos-imagem.jpg",
-  },
-];
-
-export function renderizarProjetos() {
+export async function renderizarProjetos() {
   const container = document.getElementById("repositorios");
   if (!container) return;
 
-  container.innerHTML = projetos
+  try {
+    const response = await fetch('../json/projetos.json')
+    const projetos = await response.json();
+
+    container.innerHTML = projetos
     .map(
       (projeto) => `
       <div class="projeto-card conteudo-card">
@@ -91,4 +24,8 @@ export function renderizarProjetos() {
       </div>`
     )
     .join("");
+  } catch (error) {
+    console.error('Erro ao carregar os projetos:', error);
+    container.innerHTML = '<p>Erro ao carregar os projetos.</p>'
+  }
 }
