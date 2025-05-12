@@ -3,7 +3,7 @@ export async function renderizarExperiencia() {
     if (!container) return;
 
     try {
-        const response = await fetch("../json/experiencias.json");
+        const response = await fetch("/js/json/experiencias.json");
         const experiencias = await response.json();
 
         container.innerHTML = experiencias
