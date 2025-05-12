@@ -49,6 +49,10 @@ footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.conteudo-card:hover {
+  transform: scale(1.05);
+}
+
 .conteudo-card ul {
   margin-top: 10px;
   padding-left: 20px;

@@ -9,11 +9,6 @@
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 20px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.projeto-card:hover {
-  transform: scale(1.02);
 }
 
 .projeto-imagem {
