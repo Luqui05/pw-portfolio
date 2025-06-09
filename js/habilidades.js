@@ -3,7 +3,7 @@ export async function renderizarHabilidades() {
   if (!container) return;
 
   try {
-    const response = await fetch("/js/json/habilidades.json");
+    const response = await fetch("./js/json/habilidades.json");
     const categorias = await response.json();
 
     container.innerHTML = categorias

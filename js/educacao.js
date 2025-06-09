@@ -3,7 +3,7 @@ export async function renderizarEducacao() {
     if (!container) return;
 
     try {
-        const response = await fetch("/js/json/educacao.json");
+        const response = await fetch("./js/json/educacao.json");
         const educacao = await response.json();
 
         container.innerHTML = educacao

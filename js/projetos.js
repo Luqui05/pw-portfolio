@@ -3,7 +3,7 @@ export async function renderizarProjetos() {
   if (!container) return;
 
   try {
-    const response = await fetch('/js/json/projetos.json')
+    const response = await fetch('./js/json/projetos.json')
     const projetos = await response.json();
 
     container.innerHTML = projetos
