@@ -22,7 +22,7 @@
             "JUnit"
         ],
         "url": "https://github.com/Time-7-Desafio03",
-        "imagem": "../img/votacao-imagem.jpg"
+        "imagem": "img/votacao-imagem.jpg"
     },
     {
         "nome": "Projeto-Notes",
@@ -39,7 +39,7 @@
             "MongoDB"
         ],
         "url": "https://github.com/Luqui05/Projeto-Notes",
-        "imagem": "../img/notes.jpg"
+        "imagem": "img/notes.jpg"
     },
     {
         "nome": "Plataforma de Gestão de Cursos e Matrículas",
@@ -59,6 +59,6 @@
             "ModelMapper"
         ],
         "url": "https://github.com/cursos-matriculas",
-        "imagem": "../img/cursos-imagem.jpg"
+        "imagem": "img/cursos-imagem.jpg"
     }
 ]

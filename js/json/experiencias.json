@@ -4,13 +4,13 @@
         "empresa": "Compass UOL",
         "periodo": "18/03/2024 - 14/08/2024",
         "descricao": "Atuei como estagiário na área de desenvolvimento back-end utilizando Java + Spring Boot com Cloud Computing (AWS), participando de um programa de bolsas interno da empresa, cujo o foco foi no seguimento de uma trilha de aprendizado, com desafios visando avaliar o aprendizado durante o período de estágio. Ao final, obtive certificado da empresa e certificações da Amazon.",
-        "logo": "../img/logo_uol.png"
+        "logo": "img/logo_uol.png"
     },
     {
         "cargo": "💼 Desenvolvedor Trainee",
         "empresa": "Compass UOL",
         "periodo": "03/10/2024 - Atualmente",
         "descricao": "Após o estágio, fui efetivado na empresa e atualmente atuo como desenvolvedor back-end. Minha stack atual envolve Node.js e TypeScript, tecnologias essas que utilizo para desenvolver sistemas e aplicações seguindo padrões de design e boas práticas.",
-        "logo": "../img/logo_uol.png"
+        "logo": "img/logo_uol.png"
     }
 ]
